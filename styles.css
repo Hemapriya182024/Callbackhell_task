@@ -1,0 +1,33 @@
+#countdown {
+    font-size: 100px;
+    display: flex;
+    color:white;
+    text-align: center;
+    margin-left: 50%;
+    
+}
+#countdown{
+    background-color: black;
+    color: antiquewhite;
+
+    display: inline;
+}
+
+
+#message {
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 220px;
+    text-align: center;
+}
+body{
+    background-image:url("https://images.unsplash.com/photo-1600093112291-7b553e3fcb82?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+ 
+    
+}
+#clickme{
+    padding: 20px;
+    font-size: larger;
+  margin-left: 50%;
+  margin-top: 20%;
+}
