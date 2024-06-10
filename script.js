@@ -1,7 +1,7 @@
 var clickme1 = document.getElementById("clickme");
-clickme1.click = function () { };
 
-document.addEventListener("click", function () {
+
+clickme1.addEventListener("click", function () {
     var countdownDiv = document.getElementById('countdown');
     var messageDiv = document.getElementById('message');
 
