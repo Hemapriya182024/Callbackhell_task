@@ -25,11 +25,9 @@ clickme1.addEventListener("click", function () {
                                         countdownDiv.textContent = 2;
                                         setTimeout(function () {
                                             countdownDiv.textContent = 1;
+
                                             setTimeout(function () {
-                                                countdownDiv.textContent = 0;
-                                                setTimeout(function () {
-                                                    messageDiv.textContent = "Happy Independence Day!";
-                                                }, 1000);
+                                                messageDiv.textContent = "Happy Independence Day!";
                                             }, 1000);
 
                                         }, 1000);
